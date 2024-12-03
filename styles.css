@@ -1,0 +1,183 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; /* Match LifeXSpan's font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9; /* Subtle light background */
+}
+
+/* Header with Light Background */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: white; /* Light header background */
+    border-bottom: 2px solid #ddd; /* Subtle border */
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #2C3E50; /* Match LifeXSpan branding */
+}
+
+h2 {
+    color: #16A085; /* Accent color */
+}
+
+/* Buttons */
+button, .option-button {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 20px;
+    background-color: #16A085; /* LifeXSpan green */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover, .option-button:hover {
+    background-color: #1ABC9C; /* Hover effect */
+    transform: translateY(-2px);
+}
+
+/* Introduction Paragraph Styling */
+.intro {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+    text-align: center;
+    color: #555;
+}
+
+.intro strong {
+    color: #16A085; /* Highlight important text with accent color */
+}
+
+/* Style for Intro Screen */
+#intro-screen {
+    text-align: center;
+    padding: 20px;
+}
+
+#start-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #16A085; /* Match brand accent color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#start-button:hover {
+    background-color: #1ABC9C; /* Hover effect */
+    transform: translateY(-2px);
+}
+
+/* Hide elements by default */
+.hidden {
+    display: none;
+}
+
+/* Progress Bar Container */
+#progress-container {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#progress-bar {
+    height: 10px;
+    background-color: #16A085; /* Match brand color */
+    width: 0%; /* Start with no progress */
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+#progress-text {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Explanation Text Styling */
+.answer-explanation {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+    text-align: left;
+    margin-left: 20px; /* Indent slightly for readability */
+}
+
+/* Interventions */
+#intervention-list li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#intervention-list strong {
+    font-size: 18px;
+    color: #16A085; /* Highlight intervention name */
+}
+
+#intervention-list em {
+    font-weight: bold;
+    color: #555;
+}
+
+#intervention-list a {
+    color: #1ABC9C; /* Accent color for links */
+    text-decoration: none;
+}
+
+#intervention-list a:hover {
+    text-decoration: underline;
+}
+
+/* Answer History */
+#answered-questions {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#answered-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #2C3E50; /* Dark footer background */
+    color: white;
+    font-size: 14px;
+}

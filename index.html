@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeXSpan - Health Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://cdn.prod.website-files.com/6634b8056a5c78dfc14819ed/66370d3b056d35d92b64ab11_Lifexspan%20Logo%20Dark.svg" alt="LifeXSpan Logo" class="logo">
+    </header>
+
+    <div class="container" id="intro-screen">
+        <h1>Your Personalized Health Assessment</h1>
+        <p class="intro">
+            This assessment is designed to help you discover personalized health interventions tailored to your unique lifestyle and habits. 
+            You’ll be asked <strong>30 questions</strong> about your daily routines, preferences, and health-related activities. 
+            Once completed, we’ll provide you with a ranked list of interventions to improve your health and longevity. 
+            It only takes a few minutes to get started!
+        </p>
+        <button id="start-button">Let's Begin</button>
+    </div>
+    
+    <div class="container hidden" id="questionnaire-screen">
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+            <p id="progress-text">Question 1 of 30</p>
+        </div>
+    
+        <div id="questionnaire">
+            <div id="question-container">
+                <!-- Questions will be dynamically loaded here -->
+            </div>
+        </div>
+    
+        <div id="results" class="hidden">
+            <h2>Your Top Health Interventions</h2>
+            <ul id="intervention-list"></ul>
+            <button id="download-button">Download Results</button>
+        </div>
+    
+        <div id="answered-questions">
+            <h2>Answered Questions</h2>
+            <ul id="answered-list"></ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 LifeXSpan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
